@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/01/02/02/37/background-3907905_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#div_abf{
+    background-color: rgba(0, 255, 255, 0.418);
+height: 200px;
+display: flex;
+}
+.abf{
+    height:100% ;
+}
+.e1{
+    cursor: pointer;
+    width: 40%;
+    height: 40%;
+    border: rgba(0, 255, 255, 0.514) solid;
+    background-color: rgba(11, 7, 253, 0.534);
+}

@@ -1,0 +1,104 @@
+#escolha{
+transition: 0.5s;
+    font-style: italic;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border-radius:50px 50px 3px 3px  ;
+    border: 10px rgb(8, 45, 252) solid;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.616);
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.459) 7px 9px 6px 2px;
+}
+#escolha1{
+    transition: 0.5s;
+        font-style: italic;
+        color: black;
+        display: flex;
+        align-items: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        border-radius: 25px;
+        border: 10px rgb(8, 45, 252) solid;
+        text-align: center;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.616);
+        height: 180px;
+        box-shadow: rgba(0, 0, 0, 0.459) 7px 9px 6px 2px;
+    }
+    #escolha2{
+        transition: 0.5s;
+            font-style: italic;
+            color: black;
+            display: flex;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+            border-radius:3px 3px 50px 50px ;
+            border: 10px rgb(8, 45, 252) solid;
+            text-align: center;
+            margin-left: 10%;
+            margin-top: 3%;
+            width: 80%;
+            background-color: rgba(255, 255, 255, 0.616);
+            height: 50px;
+            box-shadow: rgba(0, 0, 0, 0.459) 7px 9px 6px 2px;
+        }
+        #escolha2:hover{
+            cursor: pointer;
+            opacity: 0.3;
+        }
+#star{
+    height: 90%;
+}
+#escolha:hover{
+    height: 125px;
+}
+h1{
+    margin-left: 1%;
+    margin-right: 20%;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778_960_720.jpg);
+    background-size: cover;
+}
+#qtd{
+    outline: none;
+    float: right;
+    background-color:  rgba(255, 10, 10, 0); ;
+    border-radius:15px 5px ;
+    border-color:rgb(25, 0, 255) ;
+    border-style: outset;
+    width: 20%;
+    height: 30%;
+}
+#cab{
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/534/987/non_2x/abstract-digital-technology-with-blue-background-vector-design.jpg);
+    background-size: cover;
+}
+
+#frase{
+    padding-left: 10%;
+    width: 25%;
+    padding-top: 1.5%;
+    border: 1px rgba(255, 255, 255, 0.965) solid;
+color: white;
+    border-radius: 45px;
+    display: flex;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTvwUoemOGb7TDE5nYyxRew3uMgFoBogdVYXQ&usqp=CAU);
+   background-size: cover;
+    font-size: 40px;
+}
