@@ -18,3 +18,6 @@ display: flex;
     border: rgba(0, 255, 255, 0.514) solid;
     background-color: rgba(11, 7, 253, 0.534);
 }
+.nave{
+    float: right;
+}
