@@ -21,3 +21,27 @@ display: flex;
 .nave{
     float: right;
 }
+#div_abf2{
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.418);
+display: flex;
+}
+#ns{
+    height: 100%;
+    width: 100%;
+}
+.av2{
+    height: 100%;
+}
+.b1{
+    width: 100%;
+    top: 250px;
+    position: absolute;
+}
+.b2{
+    cursor: pointer;
+    width: 40%;
+    height: 40%;
+    border: rgba(0, 255, 255, 0.514) solid;
+    background-color: rgba(11, 7, 253, 0.534);
+}

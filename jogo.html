@@ -1,52 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecBuster</title>
     <link rel="stylesheet" href="css/jogo.css">
 </head>
+
 <body>
-    <div id="div_abf" >
-        <img class="abf" id="img2" style="display: none;" src="avatar/ash_vbf.jpeg" alt="">
-        <img class="abf" id="img1" style="display: none;" src="avatar/ash_piscando.jpeg" alt="">
-         <img id="imgo" class="abf" src="avatar/ash.gif" alt="">
-    <h1 id="frase1" style="display: block;">Olá Recruta! Meu nome é Ashley, Sou sua acompanhante <br>
-    Nesta jornada de Proteçao da TecBuster, logo menos <br>
-    você terá uma conversa com o fundador da TecBuster.
-    </h1>
-    <h1 id="frase2" style="display: none;">A TecBuster é uma base em uma nave espacial, <br>
-    ela é tudo que restou do planeta terra.</h1>
+    <div id="tudo1">
+        <div id="div_abf">
+            <img class="abf" id="img2" style="display: none;" src="avatar/ash_vbf.jpeg" alt="">
+            <img class="abf" id="img1" style="display: none;" src="avatar/ash_piscando.jpeg" alt="">
+            <img id="imgo" class="abf" src="avatar/ash.gif" alt="">
+            <h1 id="frase1" style="display: block;">Olá Recruta! Meu nome é Ashley, Sou sua acompanhante <br>
+                Nesta jornada de Proteçao da TecBuster, logo menos <br>
+                você terá uma conversa com o fundador da TecBuster.
+            </h1>
+            <h1 id="frase2" style="display: none;">A TecBuster é uma base em uma nave espacial, <br>
+                ela é tudo que restou do planeta terra.</h1>
 
-    <h1 id="frase3" style="display: none;">A terra foi destruida pelos humanos, na busca por alimentos, <br>
-    o povo enloqueceu, a população ja chegava a 10 bilhoes, começou uma <br>
-    guerra, então varias agências espacias de cada país soltaram uma base <br>
-    espacial, infelizmente todas foram destruidas por seres ainda misteriosos... <br>
-    só restou essa. <br>
+            <h1 id="frase3" style="display: none;">A terra foi destruida pelos humanos, na busca por alimentos, <br>
+                o povo enloqueceu, a população ja chegava a 10 bilhoes, começou uma <br>
+                guerra, então varias agências espacias de cada país soltaram uma base <br>
+                espacial, infelizmente todas foram destruidas por seres ainda misteriosos... <br>
+                só restou essa. <br>
 
-    </h1>
-    <h1 id="frase4" style="display: none;">Ah...eh... Bom você é quem você quer ser, bom acho melhor <br>
-        você conhecer a tripulação!</h1>
-        <h1 id="frase6" style="display: none;">
-            Bom vou deixar para o fundador dizer a você,<br>
-            Mas agora vamos ver a tripulaçao.
-        </h1>
+            </h1>
+            <h1 id="frase4" style="display: none;">Ah...eh... Bom você é quem você quer ser, bom acho melhor <br>
+                você conhecer a tripulação!</h1>
+            <h1 id="frase6" style="display: none;">
+                Bom vou deixar para o fundador dizer a você,<br>
+                Mas agora vamos ver a tripulaçao.
+            </h1>
+
+        </div>
+
+        <div>
+            <img class="nave" id="mundo_destruido" style="display: none;" src="Imagens/unnamed.png" alt="">
+            <img class="nave" id="nave" style="display: none;" src="imagens/nave-removebg-preview.png" alt="">
+            <h1 onclick="e1()" id="ee1" class="e1"> o que é a base TecBuster?</h1>
+            <h1 onclick="e2()" id="ee2" class="e1" style="display: none;">O que aconteceu com a terra?</h1>
+            <h1 onclick="e3()" class="e1" style="display: none;" id="ee3">Quem eu sou?</h1>
+            <h1 onclick="e4()" class="e1" style="display: none;" id="ee4"> ok...</h1>
+            <h1 onclick="e5()" class="e1" style="display: none;" id="ee5">Me Fale!</h1>
+
 
         </div>
     </div>
 
-    <div>
-        <img class="nave" id="mundo_destruido" style="display: none;" src="https://lh3.googleusercontent.com/proxy/sT208IwvCOEbuosPiJh-1PEaW4aZBwUjdwKVaNR83s72T7TpLcZIMwhtfFm_tS5X_-ZslclKmm0-VErDKMc-ALn5T-pNl2RimXpb6UuRJ6LK5kdD4czVFSY" alt="">
-        <img class="nave" id="nave" style="display: none;" src="imagens/nave-removebg-preview.png" alt="">
-            <h1 onclick="e1()" id="ee1" class="e1"> o que é a base TecBuster?</h1>
-            <h1 onclick="e2()" id="ee2" class="e1" style="display: none;">O que aconteceu com a terra?</h1>   
-               <h1 onclick="e3()" class="e1" style="display: none;" id="ee3">Quem eu sou?</h1>
-               <h1 onclick="e4()" class="e1" style="display: none;"  id="ee4"> ok...</h1>
-               <h1 onclick="e5()" class="e1" style="display: none;"  id="ee5">Me Fale!</h1>
-            
+    <div id="tudo2" style="display: none;">
+        <div id="div_abf2">
+            <img src="avatar/ash_piscando.jpeg" alt="" id="ashonea" class="av2" style="display: none;">
+            <img id="c1" style="display: none;" class="av2" src="avatar/Christian.jpg" alt="">
+            <img id="c2" style="display: none;" class="av2" src="avatar/Christian 3.jpg" alt="">
+            <h1 id="fala1" style="display: block;">
+                Esta é a sala de reunião, aqui você vai encontrar muitas vezes <br>
+                as pessoas mais importantes da nave, aqui você nunca vai poder <br>
+                ficar sem alguem, pois você ainda é recruta, normas da nave.
+            </h1>
+            <h1 id="fala2" style="display: none; color: white;">
+                Então esse é o maldito novato, Parece mesmo que essa nave não para <br>
+                De encontrar infelizes como você, Bom que seja... meu nome é <br>
+                Christian seja bem vindo a essa merda flutuante. qual quer dia vou<br>
+                acabar explodindo essa miséria.
+            </h1>
+            <h1 id="fala3" style="display: none; color: red; background-color: black;">
+                Christian o Comandante C.gomes convoca sua presença imediatamente.
+            </h1>
+            <h1 id="fala4" style="display: none;">
+                é parece que houve uma confusão aqui...
+            </h1>
+            <h1 id="fala5" style="display: none;">
+            O nome dele é igor, na verdade ele não é um soldado,
+             ele é o líder do exercito desta nave. um dos 5 poderes
+             da nave, alguns desta nave não gostam dele por ele ter um JHJ um estilo
+             de arma.
+
+            </h1>
+            <h1 id="fala6" style="display: none;">
+                C.gomes é o comandante da nave ele é um dos 5 poderes da nave, muito respeitado,
+                menos por igor.
+            </h1>
+            <h1 id="fala7" style="display: none;">
+                Christian é um homem recrutado de outra nave, as vezes ele é desse jeito,
+                mas sempre é corrigido pelo comandante.
+            </h1>
+            <img id="igor" style="display: none;" class="av2" src="avatar/Igor.jpg" alt="">
+            <img id="ashone" style="display: block;" class="av2" src="Avatar/ash.gif" alt="">
+            <img id="ashtwo" style="display: none;" class="av2" src="avatar/ash_vbf.jpeg" alt="">
+            <img id="ashtres" style="display: none;" class="av2" src="avatar/ash_vba.jpeg" alt="">
+
 
         </div>
-       
+        <img id="ns" style="display: block;" src="imagens/Nave_sala.jpg" alt="">
+        <div class="b1">
+            <h1 class="b2" id="b2" style="display: block;" onclick="f1()">
+                Proximo
+            </h1>
+            <h1 class="b2" id="b3" style="display: none;" onclick="f2()">
+                Cara louco!!!
+            </h1>
+            <h1 class="b2" id="b4" style="display: none;" onclick="f3()">
+                . . .
+            </h1>
+            <h1 class="b2" id="b5" style="display: none;" onclick="f4()">
+                Quem é esse soldado?
+            </h1>
+            <h1 class="b2" id="b6" style="display: none;" onclick="f5()">
+                Quem é o comandante C.gomes?
+            </h1>
+            <h1 class="b2" id="b7" style="display: none;" onclick="f6()">
+                quem é esse Christian?
+            </h1>
+        </div>
+
+    </div>
+
+
 </body>
+
 </html>
 <script src="js/script.js"></script>
